@@ -1,0 +1,45 @@
+.forkme {
+    width: auto;
+    height: auto;
+    top: 40px;
+    right: -55px;
+    padding: 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #aaaaaa;
+    border: 1px solid #000000;
+}
+
+.forkme-link, .forkme-link:link, .forkme-link:visited, .forkme-link:hover, .forkme-link:focus, .forkme-link:active {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 10px 50px;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.forkme-fixed {
+    position: fixed;
+    z-index: 999;
+}
+
+.forkme-transparent {
+    background-color: transparent;
+    box-shadow: 0 0 10px 0 #888888;
+    border: 1px solid #ffffff;
+    text-shadow: 0 0 5px #444444;
+}
+
+.forkme-transparent .forkme-link,
+.forkme-transparent .forkme-link:link,
+.forkme-transparent .forkme-link:visited,
+.forkme-transparent .forkme-link:hover,
+.forkme-transparent .forkme-link:focus,
+.forkme-transparent .forkme-link:active {
+    color: #ffffff;
+}
